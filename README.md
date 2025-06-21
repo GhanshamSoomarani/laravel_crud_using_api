@@ -23,10 +23,7 @@
   </a>
 </p>
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 47b8a6003766e004596b9f01ab2a99a50d56d0dd
 ---
 
 # 📌 Laravel Task Manager API
