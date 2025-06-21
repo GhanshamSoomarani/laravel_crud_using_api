@@ -76,26 +76,12 @@ Follow these steps to run the project locally:
 create new database
 
 ### 4️⃣ Update .env file of project 
-<<<<<<< HEAD
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306    
     DB_DATABASE=database_name
     DB_USERNAME=root
     DB_PASSWORD=
-=======
-DB_CONNECTION=mysql
-
-DB_HOST=127.0.0.1
-
-DB_PORT=3306    
-
-DB_DATABASE=database_name
-
-DB_USERNAME=root
-
-DB_PASSWORD=
->>>>>>> 47b8a6003766e004596b9f01ab2a99a50d56d0dd
 
 ### 5️⃣ Run migration
     php artisan migrate
