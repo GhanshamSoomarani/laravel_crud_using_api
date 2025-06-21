@@ -29,7 +29,7 @@
 
 # Laravel Task Manager API
 
-A simple **RESTful API** built with **Laravel** for managing tasks. This API supports CRUD operations and is tested using **Postman**. It uses **SQLite** or **MySQL** for data storage.
+A simple **RESTful API** built with **Laravel** for managing tasks. This API supports CRUD operations and is tested using **Postman**. It use **MySQL** for data storage.
 
 ---
 
@@ -46,7 +46,7 @@ A simple **RESTful API** built with **Laravel** for managing tasks. This API sup
 ## 🛠 Tools & Technologies
 
 - Laravel (PHP Framework)
-- SQLite / MySQL (Database)
+- XAMPP {MySQL (Database)}
 - Postman (API Testing)
 - Composer
 - PHP 8.2 or above
