@@ -23,6 +23,10 @@
   </a>
 </p>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 47b8a6003766e004596b9f01ab2a99a50d56d0dd
 ---
 
 # 📌 Laravel Task Manager API
@@ -71,16 +75,30 @@ Follow these steps to run the project locally:
 ### 2️⃣ Install required packages (API)
     php artisan install:api
 ### 3️⃣ Create database
-[Localhost](https://localhost/phpmyadmin)
+[Localhost](https://localhost/phpmyadmin) https://localhost/phpmyadmin
 create new database
 
 ### 4️⃣ Update .env file of project 
+<<<<<<< HEAD
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306    
     DB_DATABASE=database_name
     DB_USERNAME=root
     DB_PASSWORD=
+=======
+DB_CONNECTION=mysql
+
+DB_HOST=127.0.0.1
+
+DB_PORT=3306    
+
+DB_DATABASE=database_name
+
+DB_USERNAME=root
+
+DB_PASSWORD=
+>>>>>>> 47b8a6003766e004596b9f01ab2a99a50d56d0dd
 
 ### 5️⃣ Run migration
     php artisan migrate
@@ -101,33 +119,3 @@ create new database
 | `PUT`      | `/api/tasks/{id}`    | Update an existing task     |
 | `DELETE`   | `/api/tasks/{id}`    | Delete a task               |
 
-
-=======
-
-
----
-
-# Laravel Task Manager API
-
-A simple **RESTful API** built with **Laravel** for managing tasks. This API supports CRUD operations and is tested using **Postman**. It use **MySQL** for data storage.
-
----
-
-## ✅ Features
-
-- Create a new task
-- View all tasks
-- View a specific task
-- Update a task
-- Delete a task
-
----
-
-## 🛠 Tools & Technologies
-
-- Laravel (PHP Framework)
-- XAMPP {MySQL (Database)}
-- Postman (API Testing)
-- Composer
-- PHP 8.2 or above
->>>>>>> 6adccd3ab6282c0728541cf6dbac4a59586c9b17
