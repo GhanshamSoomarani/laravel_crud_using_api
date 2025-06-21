@@ -23,7 +23,6 @@
   </a>
 </p>
 
-<<<<<<< HEAD
 ---
 
 # 📌 Laravel Task Manager API
@@ -68,25 +67,25 @@ A simple **RESTful API** built with **Laravel** for managing tasks. This API sup
 Follow these steps to run the project locally:
 
 ### 1️⃣ Create new laravel project
-composer create-project laravel/laravel project-name
+    composer create-project laravel/laravel project-name
 ### 2️⃣ Install required packages (API)
-php artisan install:api
+    php artisan install:api
 ### 3️⃣ Create database
 [Localhost](https://localhost/phpmyadmin)
 create new database
 
 ### 4️⃣ Update .env file of project 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306    
-DB_DATABASE=database_name
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306    
+    DB_DATABASE=database_name
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 ### 5️⃣ Run migration
-php artisan migrate
+    php artisan migrate
 ### 6️⃣ Run the project
-php artisan serve
+    php artisan serve
 ### 7️⃣ Open Postman and send API requests
 - [Create a new task](#-create-a-new-task)
 - [View all tasks](#-view-all-tasks)
