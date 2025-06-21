@@ -23,6 +23,7 @@
   </a>
 </p>
 
+<<<<<<< HEAD
 ---
 
 # 📌 Laravel Task Manager API
@@ -102,3 +103,32 @@ php artisan serve
 | `DELETE`   | `/api/tasks/{id}`    | Delete a task               |
 
 
+=======
+
+
+---
+
+# Laravel Task Manager API
+
+A simple **RESTful API** built with **Laravel** for managing tasks. This API supports CRUD operations and is tested using **Postman**. It use **MySQL** for data storage.
+
+---
+
+## ✅ Features
+
+- Create a new task
+- View all tasks
+- View a specific task
+- Update a task
+- Delete a task
+
+---
+
+## 🛠 Tools & Technologies
+
+- Laravel (PHP Framework)
+- XAMPP {MySQL (Database)}
+- Postman (API Testing)
+- Composer
+- PHP 8.2 or above
+>>>>>>> 6adccd3ab6282c0728541cf6dbac4a59586c9b17
